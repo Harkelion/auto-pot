@@ -1,16 +1,19 @@
 {
-	"files": {
-		"index.js": "89097a3b26607dc255256b0123275a80c8b1f199ae7b83356eaf014214dc9c8a"
-	},
-	"defs": {
-		"C_ADMIN": 1,
-		"C_CONFIRM_UPDATE_NOTIFICATION": "raw",
-		"C_PLAYER_LOCATION": 5,
-		"C_USE_ITEM": 3,
-		"S_ANNOUNCE_UPDATE_NOTIFICATION": 1,
-		"S_ITEMLIST": 6,
-		"S_PLAYER_STAT_UPDATE": 17,
-		"S_RETURN_TO_LOBBY": "raw",
-		"S_SPAWN_ME": 3
-	}
+    "files": {
+        "README.md": "30aa30d80d46c15a482cccc9a2ca9b0b9122b3207f176aedb2415bfd257619c5",
+        "config.json": {
+            "overwrite": false,
+            "hash": "bdeb0be3ae9872be18ecd056c1df6dfbf41fd753bf9026a6459a079c31a29293"
+        },
+        "hp.json": {
+            "overwrite": false,
+            "hash": "19ee03ebc681238e9ec13c04f75d21ed9fcbeaed29fc38ef49c3e3b5abd4f2ee"
+        },
+        "index.js": "4c07d58adf92538524777fee1790bdd3d26462cd5f62623f5cd6dafb57a6be8d",
+        "module.json": "89f99b9622cf062cf00777ffd18614080f380708b8098162eadb273d3beebbe5",
+        "mp.json": {
+            "overwrite": false,
+            "hash": "9dd06503b1d543a728fc735b2aef8f12aeccf61248a46f6d924b82627728a176"
+        }
+    }
 }

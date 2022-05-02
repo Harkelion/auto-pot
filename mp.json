@@ -1,0 +1,16 @@
+{
+    "6562": {
+        "name": "Prime Replenishment Potable",
+        "inBattleground": false,
+        "inCombat": false,
+        "use_at": 50,
+        "cd": 10
+    },
+    "130": {
+        "name": "Divine Infusion",
+        "inBattleground": false,
+        "inCombat": false,
+        "use_at": 5,
+        "cd": 30
+    }
+}

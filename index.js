@@ -222,7 +222,7 @@ module.exports = function AutoPOT(mod) {
 	});
 	
 	//Because S_PLAYER_STAT_UPDATE faster than CREATURE
-	mod.hook('S_PLAYER_STAT_UPDATE', 13, e => {
+	mod.hook('S_PLAYER_STAT_UPDATE', mod.majorPatchVersion >= 93 ? 14 : 13, e => {
 		if (config.enabled) {
 			useHP(Math.round(s2n(e.hp) / s2n(e.maxHp) * 100));
 			useMP(Math.round(s2n(e.mp) / s2n(e.maxMp) * 100));
@@ -239,7 +239,7 @@ module.exports = function AutoPOT(mod) {
 			useMP(Math.round(s2n(e.currentMp) / s2n(e.maxMp) * 100));
 	});*/
 	
-	mod.hook('S_ITEMLIST', 3, e => {
+	mod.hook('S_ITEMLIST', mod.majorPatchVersion >= 96 ? 4 : 3, e => {
 		if (!invUpdate && e.gameId === mod.game.me.gameId) {
 			invUpdate = true;
 			for(let hp = 0; hp < hpPot.length; hp++)

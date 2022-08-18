@@ -6,5 +6,21 @@
         "use_at": 80,
         "slay_at": 30,
         "cd": 10
-    }
+    },
+    "114" :{
+    "name": "Valkyon Health Potion",
+        "inBattleground": false,
+        "inCombat": true,
+        "use_at": 60,
+        "slay_at": 30,
+        "cd": 30
+},
+"113" :{
+    "name": "Health Potion",
+        "inBattleground": false,
+        "inCombat": true,
+        "use_at": 60,
+        "slay_at": 30,
+        "cd": 30
+},
 }

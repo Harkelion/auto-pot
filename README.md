@@ -1,6 +1,7 @@
 # Autopot
 This is same let-me-pot</br>
 - Support slaying mode.
+- In Bahaar prevent using pot to keep cd for waves
 - Support for who no need use potion only in combat.</br>
 - Support Civil Unrest and Battleground potion.</br>
 - Reload file with command no need relog or restart.</br>
@@ -13,7 +14,7 @@ start with "autopot" or "pot"
 - pot hp                        //Enable and Disable auto use hp pot
 - pot mp                        //Enable and Disable auto use mp pot *default is always enable
 - pot slaying                   //Enable and Disable auto use hp pot with slaying mode
-- pot bahaar                    //Enable and Disable auto use hp pot only while bahaar
+- pot bahaar                    //Enable and Disable auto use hp pot only while bahaar use waves
 - pot reload hp                 //Reload HP.json file *open your inventory for update item amont
 - pot reload mp                 //Reload MP.json file *open your inventory for update item amont
 - pot reload config             //Reload Config.json file

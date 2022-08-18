@@ -13,6 +13,7 @@ start with "autopot" or "pot"
 - pot hp                        //Enable and Disable auto use hp pot
 - pot mp                        //Enable and Disable auto use mp pot *default is always enable
 - pot slaying                   //Enable and Disable auto use hp pot with slaying mode
+- pot bahaar                    //Enable and Disable auto use hp pot only while bahaar
 - pot reload hp                 //Reload HP.json file *open your inventory for update item amont
 - pot reload mp                 //Reload MP.json file *open your inventory for update item amont
 - pot reload config             //Reload Config.json file
@@ -30,6 +31,7 @@ start with "autopot" or "pot"
     "hp": false,        //if set true = enable auto HP pot
     "mp": true,         //if set true = enable auto MP pot
     "slaying": false,   //if set true = enable slaying mode
+    "bahaarWave": true, //if set true = enable bahaar mode
     "notice": false     //if set true = notice your pot left, false = not notice
 }
 ```

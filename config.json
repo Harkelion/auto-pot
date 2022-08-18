@@ -3,6 +3,7 @@
     "hp": false,
     "mp": true,
     "slaying": false,
+    "bahaarWave" : true,
     "notice": false,
     "delayafterRes": 2000
 }

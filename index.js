@@ -14,6 +14,7 @@ module.exports = function AutoPOT(mod) {
     gPot = null,
     packet_version = 0,
     skillWave = false;
+	let debug = true;
   mod.game.initialize(["me", "contract", "inventory"]);
 
   if (!map.has(mod.dispatch || mod)) {
@@ -320,7 +321,7 @@ module.exports = function AutoPOT(mod) {
           e.skill.id == 1122 ||
           e.skill.id == 1123
         ) {
-          console.log("Wave incoming, pot will be use");
+          debug ? console.log("Wave incoming, pot will be use") :"";
           skillWave = true;
         }
       }
@@ -378,7 +379,7 @@ module.exports = function AutoPOT(mod) {
     ) {
       if (aLoc == 9044) {
         if (!skillWave && config.bahaarWave) return;
-        console.log("pot use during waves");
+        debug ? console.log("pot use during waves") : "";
         skillWave = false;
       }
       for (let hp = 0; hp < hpPot.length; hp++) {
